@@ -8,16 +8,9 @@ const fetcher = async () => {
 
 const Events = () => {
   const { data, error } = SWR("events", fetcher);
- 
-  const fetchSports = async () => {
-    const response = await fetch("http://localhost:3004/events?category=sports");
-    const data = await response.json();
-    return data;
-  }
- 
+
   return (
     <div>
-        <button onClick = {fetchSports} >Sports</button>
       <h1>Events</h1>
       {error && <div>failed to load</div>}
       {!data && <div>loading...</div>}
