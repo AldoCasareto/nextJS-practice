@@ -1,4 +1,61 @@
 {
+  "events": [
+    {
+      "id": "1",
+      "title": "Event 1",
+      "description": "Description 1",
+      "category": "sports",
+      "date": "april 25"
+    },
+    {
+      "id": "1",
+      "title": "Event 2",
+      "description": "Description 2",
+      "category": "tech",
+      "date": "august 25"
+    },
+    {
+      "id": "1",
+      "title": "Event 3",
+      "description": "Description 3",
+      "category": "food",
+      "date": "february 25"
+    },
+    {
+      "id": "1",
+      "title": "Event 4",
+      "description": "Description 4",
+      "category": "food",
+      "date": "october 25"
+    },
+    {
+      "id": "1",
+      "title": "Event 5",
+      "description": "Description 5",
+      "category": "sports",
+      "date": "july 25"
+    },
+    {
+      "id": "1",
+      "title": "Event 6",
+      "description": "Description 6",
+      "category": "tech",
+      "date": "june 25"
+    },
+    {
+      "id": "1",
+      "title": "Event 7",
+      "description": "Description 7",
+      "category": "food",
+      "date": "may 25"
+    }
+  ],
+  "dashboard": {
+    "posts": 5,
+    "likes": 100,
+    "followers": 20,
+    "following": 50
+  },
   "news": [
     {
       "id": "1",
